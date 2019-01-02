@@ -1,0 +1,57 @@
+## DemoLibConvertion-alpha
+
+## Overview
+
+This repo captures the generation of a java library for Processing.
+It also shows how to generate the library using either Java CLI or Gradle
+(Possibly also Maven, Eclipse and Gradle+Eclipse).
+
+The first folder `loadingRing_singleJava` contains the class+demonstration code under a single pde file.
+Notice this is not the typical pde file but the java version.
+
+The second folder, `loadingRing_splitJava`, shows how to decouple the library code from the demonstration pde.
+
+The folder `loadingRing_viaLib` is the third step showing how to build the library using
+javac and packaging it with jar. This is describe in detail in loadingRing_viaLib/readme.md [MASTER document]
+Notice you will find also the libUseDemonstration filder that has a sketch file demosntrating how to use the
+library. Ideally this file is under examples when the library is publish. This way, example files are also
+published and linked to this release.
+
+Additionaly, the `gradleDemo` folder shows how to build the library as done in `loadingRing_viaLib` but using
+gradle from instructions in [processing-library-template-gradle](https://github.com/enkatsu/processing-library-template-gradle)
+
+## Requirements
+
+## Instructions
+
+## To Do
+
+1. [DONE] Use javadoc command to generate reference docuemntation via Java CLI 
+2. Integrae examples into published folder
+3. Generate and document library generation using Eclipse
+4. Define release license
+5. Use JUnit for TDD
+6. Define additional files to publishing file in processing as described [here](https://github.com/processing/processing/wiki/Library-Guidelines).
+
+## Related:
+
+[MASTER instructions oracle](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/javac.html)
+[Making a library using CLI](https://discourse.processing.org/t/including-shared-pde-files-across-projects/1701/14)
+[kfrajer/building_PDE_file](https://github.com/kfrajer/building_PDE_file)
+[Processing Forum: Gradle Template Release](https://forum.processing.org/two/discussion/26711/processing-library-template-using-gradl)
+[Reference Javadoc](https://www.oracle.com/technetwork/articles/java/index-137868.html)
+[MarkDown + HTML](https://daringfireball.net/projects/markdown/syntax#html)
+[Publishing a library in Processing](https://github.com/processing/processing/wiki/Library-Guidelines)
+
+
+## Bugs and Issues
+
+Any suggestions or comments, please comment in the [issue section](https://github.com/kfrajer/XXXXXX/issues) of this repo.
+
+## Creator
+
+TBC
+
+## Copyright and License
+
+TBC
